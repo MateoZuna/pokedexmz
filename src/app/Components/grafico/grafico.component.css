@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+
+*{
+  font-family: 'Common Pixel', sans-serif;
+  font-size: 14px;
+}
+
+.stats{
+    display: flex;
+    width: 80%;
+}
+
+.health{
+  padding: 5px;
+  height: 15px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin: 5px;
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.defense{
+  display: flex;
+  width: 80%;
+}
+
+.defensa{
+  padding: 5px;
+  height: 15px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin: 5px;
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.attack{
+  display: flex;
+  width: 80%;
+}
+
+.ataque{
+  padding: 5px;
+  height: 15px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin: 5px;
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}

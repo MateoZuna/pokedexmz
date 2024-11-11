@@ -1,0 +1,28 @@
+<section class="nombres">
+    <h2>Nombre: {{nombrePokemon}}</h2>
+    <h2>Tipo: {{tipoPokemon}}</h2>
+</section>
+<section class="attack">
+    <h2>Ataque:</h2>
+    <span class="ataque" *ngIf="ataquePokemon >= 0"></span>
+    <span class="ataque" *ngIf="ataquePokemon >= 20"></span>
+    <span class="ataque" *ngIf="ataquePokemon >= 60"></span>
+    <span class="ataque" *ngIf="ataquePokemon >= 80"></span>
+    <span class="ataque" *ngIf="ataquePokemon >= 100"></span>
+</section>
+<section class="defense">
+    <h2>Defensa:</h2>
+    <span class="defensa" *ngIf="defensaPokemon >= 0"></span>
+    <span class="defensa" *ngIf="defensaPokemon >= 20"></span>
+    <span class="defensa" *ngIf="defensaPokemon >= 60"></span>
+    <span class="defensa" *ngIf="defensaPokemon >= 80"></span>
+    <span class="defensa" *ngIf="defensaPokemon >= 100"></span>
+</section>
+<section class="stats">
+    <h2>Vida:</h2>
+    <span class="health" *ngIf="vidaPokemon >= 0"></span>
+    <span class="health" *ngIf="vidaPokemon >= 20"></span>
+    <span class="health" *ngIf="vidaPokemon >= 60"></span>
+    <span class="health" *ngIf="vidaPokemon >= 80"></span>
+    <span class="health" *ngIf="vidaPokemon >= 100"></span>
+</section>

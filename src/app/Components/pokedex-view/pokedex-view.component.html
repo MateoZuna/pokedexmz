@@ -1,0 +1,16 @@
+<body>
+    <div class="pokedex-view">
+        <span class="title">Pókedex</span>
+        <section class="pokedex">
+            <app-pokedex [solicitarImage]="pokemonImage" 
+            (clickPokemon)="changePokemon($event)">      
+            </app-pokedex>
+            <span class="point"></span>
+            <span class="point"></span>
+        </section>
+        <section class="graph">
+            <app-grafico></app-grafico>
+        </section>
+    </div>
+</body>
+
